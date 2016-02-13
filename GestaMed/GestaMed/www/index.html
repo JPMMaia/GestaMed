@@ -124,7 +124,7 @@ desired effect
                 <section class="content">
 
                     <!-- search form (Optional) -->
-                    <div class="input-group">
+                    <div class="input-group" id="inputGroup">
                         <input id="searchBar" type="text" name="q" class="form-control" placeholder="Pesquisar por um medicamento...">
                         <span class="input-group-btn">
                             <button id="search-btn" type="button" name="search" class="btn btn-flat"><i class="fa fa-search"></i></button>
@@ -200,11 +200,21 @@ desired effect
 
                     <!-- Drug info box -->
                     <div class="box box-default">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Categorias FDA</h3>
-                        </div>
                         <div class="box-body">
-                            Text
+                            <div class="btn btn-success btn-flat">Categoria A:</div>
+                            <p><span class="boldDesc">Não existe evidência de risco para a espécie humana.</span> Foram realizados estudos na espécie humana que não demonstraram riscos para o feto, sendo extremamente remota a possibilidade deste ser afetado.</p>
+                            <div class="btn btn-success btn-flat">Categoria B:</div>
+                            <p><span class="boldDesc">Não existe evidência de risco para a espécie humana.</span> Não foram demonstrados riscos teratogénicos para o feto em experimentação animal, mas não existem estudos controlados na espécie humana ou a experimentação animal mostrou efeitos fetais adversos (para além de uma diminuição da fertilidade) que não foram demonstrados em experimentação controlada na espécie humana durante o 1º trimestre, não havendo também evidência de risco nos dois últimos trimestres.
+</p>
+                            <div class="btn btn-warning btn-flat">Categoria C:</div>
+                            <p><span class="boldDesc">O risco teratogénico para a espécie humana não pode ser inteiramente excluído.</span> A experimentação animal revelou efeitos adversos no feto (teratogénicos, embriocidas ou outros) e não existem estudos, controlados na espécie humana ou não estão disponíveis estudos quer na espécie humana quer nos animais.
+</p>
+                            <div class="btn btn-danger btn-flat">Categoria D:</div>
+                            <p><span class="boldDesc">Há clara evidência de risco para o feto humano.</span> Em certos casos esse risco poderá ser aceitável se o fármaco for necessário para tratar uma <span class="boldDesc">situação de alto risco</span> para a grávida, e para a qual <span class="boldDesc">não existem alternativas terapêuticas eficazes</span> com menor risco fetal.
+</p>
+                            <div class="btn btn-danger btn-flat">Categoria X:</div>
+                            <p><span class="boldDesc">Fármacos especificamente contra-indicados na espécie humana.</span> Estudos em animais ou em mulheres grávidas demonstraram a ocorrência de anomalias fetais e/ou a existência de evidência de risco fetal baseada na experiência humana, em que o risco para o feto, resultante da administração do fármaco à mulher grávida, claramente ultrapassa o possível benefício materno. Os fármacos desta categoria são absolutamente contra-indicados nas mulheres grávidas ou que estejam em situação de engravidar.
+</p>
                         </div>
                         <!-- /.box-body -->
                     </div>
@@ -226,9 +236,6 @@ desired effect
 
                     <!-- Drug info box -->
                     <div class="box box-default">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Principios gerais de prescrição de medicamentos na gravidez</h3>
-                        </div>
                         <div class="box-body">
                             TEXT
                         </div>
