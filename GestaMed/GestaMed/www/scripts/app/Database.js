@@ -140,7 +140,8 @@ Database.prototype.fillDatabase = function () {
             "Name": "varfarina",
             "Group": ["Anticoagulantes"],
             "FDACategory": "D",
-            "OtherInfo": "Derivado cumarínico antagonista da vitamina K, que atravessa facilmente a placenta. Quando administrado no primeiro trimestre da gravidez (entre a 6ª e 9ª semanas), para além do risco aumentado de aborto, provocam a característica embriopatia varfarínica em 15-25% dos fetos expostos. Esta embriopatia caracteriza-se por hipoplasia nasal (defeito no desenvolvimento do nariz) e rarefação das epífises (estes fármacos alteram a ligação do cálcio a diversas proteínas, provocando uma alteração no desenvolvimento ósseo), podendo também ocorrer outras anomalias (hipoplasia das extremidades, hidrocefalia, microcefalia, deficiente desenvolvimento fetal e pós-natal, convulsões, etc.) Quando usada durante os dois últimos trimestres da gravidez o risco decresce substancialmente, mas poderá ser responsável por hemorragias fetais causadoras de anomalias do SNC e do aparelho visual (cataratas), e mesmo de hemorragias internas graves com morte fetal. Assim, na profilaxia do tromboembolismo venoso a varfarina deve ser substituída pela heparina. No entanto, dado a heparina não ser tão eficaz como a varfarina na profilaxia do tromboembolismo arterial e na anticoagulação em mulheres com prótese das válvulas cardíacas ou doença mitral com fibrilhação, o risco de trombose pode ser maior do que o risco teratogénico, pelo que, nestas situações, poderá ser considerada a utilização dos anticoagulantes orais."
+            "OtherInfo": "Derivado cumarínico antagonista da vitamina K, que atravessa facilmente a placenta. Quando administrado no primeiro trimestre da gravidez (entre a 6ª e 9ª semanas), para além do risco aumentado de aborto, provocam a característica embriopatia varfarínica em 15-25% dos fetos expostos. Esta embriopatia caracteriza-se por hipoplasia nasal (defeito no desenvolvimento do nariz) e rarefação das epífises (estes fármacos alteram a ligação do cálcio a diversas proteínas, provocando uma alteração no desenvolvimento ósseo), podendo também ocorrer outras anomalias (hipoplasia das extremidades, hidrocefalia, microcefalia, deficiente desenvolvimento fetal e pós-natal, convulsões, etc.) Quando usada durante os dois últimos trimestres da gravidez o risco decresce substancialmente, mas poderá ser responsável por hemorragias fetais causadoras de anomalias do SNC e do aparelho visual (cataratas), e mesmo de hemorragias internas graves com morte fetal. Assim, na profilaxia do tromboembolismo venoso a varfarina deve ser substituída pela heparina. No entanto, dado a heparina não ser tão eficaz como a varfarina na profilaxia do tromboembolismo arterial e na anticoagulação em mulheres com prótese das válvulas cardíacas ou doença mitral com fibrilhação, o risco de trombose pode ser maior do que o risco teratogénico, pelo que, nestas situações, poderá ser considerada a utilização dos anticoagulantes orais.",
+            "Alternative": [["heparina", "Categoria B"], ["enoxaparina", "Categoria B"], ["fraxiparina", "Categoria B"]]
         }
         );
     this.database.put(
@@ -329,7 +330,8 @@ Database.prototype.fillDatabase = function () {
             "Name": "topiramato",
             "Group": ["Anticonvulsionantes", "Antiepilépticos"],
             "FDACategory": "D",
-            "OtherInfo": "Evitar, a menos que o benefício potencial seja superior aos riscos; toxicidade em estudos animais e não existem estudos na grávida. Se possível, substituir por etusoximida no primeiro trimestre da gravidez."
+            "OtherInfo": "Evitar, a menos que o benefício potencial seja superior aos riscos; toxicidade em estudos animais e não existem estudos na grávida. Se possível, substituir por etusoximida no primeiro trimestre da gravidez.",
+            "Alternative": [["etusoximida", "Categoria A"], ["levetiracetam", "Categoria C"], ["gabapentina", "Categoria C"]]
         }
         );
     this.database.put(
@@ -392,7 +394,8 @@ Database.prototype.fillDatabase = function () {
             "Name": "estreptomicina",
             "Group": ["Antibióticos"],
             "FDACategory": "D",
-            "OtherInfo": "Os aminoglicosídeos atingem concentrações fetais significativas. A estreptomicina e a kanamicina (ambas da categoria D) podem afetar o VIII par craniano (nervo vestibulo-coclear), com perda total ou parcial da acuidade auditiva."
+            "OtherInfo": "Os aminoglicosídeos atingem concentrações fetais significativas. A estreptomicina e a kanamicina (ambas da categoria D) podem afetar o VIII par craniano (nervo vestibulo-coclear), com perda total ou parcial da acuidade auditiva.",
+            "Alternative": [["aztreonam", "Categoria B"]]
         }
     );
     this.database.put(
@@ -2077,8 +2080,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "228",
-            "Name": "fluoxetina",
+            "Name": "Fluoxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
             "OtherInfo": "A fluoxetina é o antidepressivo inibidor seletivo da serotonina melhor estudado. A incidência de anomalias fetais não é superior à esperada na população em geral.A terapêutica com estes fármacos deve ser suspensa na segunda metade da gravidez por induzir uma maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido."
@@ -2086,8 +2088,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "229",
-            "Name": "sertralina",
+            "Name": "Sertralina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
             "OtherInfo": "Não está associada a defeitos congénitos. A terapêutica com estes fármacos deve ser suspensa na segunda metade da gravidez por induzir uma maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido."
@@ -2095,8 +2096,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "230",
-            "Name": "paroxetina",
+            "Name": "Paroxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "D",
             "OtherInfo": "Quando administrada no primeiro trimestre associa-se a duplicação do risco de anomalias cardíacas e, possivelmente, a anencefalia, gastrosquisis e onfalocelo. Por estas razões, aliadas aos efeitos fetais/neonatais comuns à sertralina e fluoxetina (maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido quando administrados na segunda metade da gravidez) deverão ser muito bem ponderados os riscos relativamente aos benefícios quando for tomada a administração de paroxetina durante a gravidez."
@@ -2104,8 +2104,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "231",
-            "Name": "tioridazina",
+            "Name": "Tioridazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "Mostraram-se inócuas para o feto em vários ensaios epidemiológicos."
@@ -2113,8 +2112,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "232",
-            "Name": "trifluoperazina",
+            "Name": "Trifluoperazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2122,8 +2120,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "233",
-            "Name": "haloperidol",
+            "Name": "Haloperidol",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2131,8 +2128,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "234",
-            "Name": "tiotixeno",
+            "Name": "Tiotixeno",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2140,8 +2136,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "235",
-            "Name": "loxapine",
+            "Name": "Loxapine",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2149,8 +2144,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "236",
-            "Name": "clorprotixene",
+            "Name": "Clorprotixene",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2158,8 +2152,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "237",
-            "Name": "aspirina / ácido acetilsalicílico",
+            "Name": "Aspirina / ácido acetilsalicílico",
             "Group": ["Analgésicos", "Anti-agregantes plaquetários"],
             "FDACategory": "C",
             "OtherInfo": "A aspirina está disponível há mais de um século e tem sido largamente usada na gravidez sem ocorrerem malformações fetais significativas. No entanto, pelo seu efeito inibidor da sintetase das prostaglandinas e por poder ser responsável por síndromes hemorrágicos devido à alteração da agregação plaquetária, o seu uso prolongado de pequenas doses de aspirina (1-2 mg/kg de peso da grávida) tem sido aproveitado para promover um moderado efeito anti-coagulante em gestantes com risco aumentado de tromboembolismo."
@@ -2167,8 +2160,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "238",
-            "Name": "ibuprofeno",
+            "Name": "Ibuprofeno",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica."
@@ -2176,8 +2168,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "239",
-            "Name": "indometacina",
+            "Name": "Indometacina",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica. Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis."
@@ -2185,8 +2176,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "240",
-            "Name": "diclofenac",
+            "Name": "Diclofenac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica."
@@ -2194,8 +2184,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "241",
-            "Name": "sulindac",
+            "Name": "Sulindac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica. "
@@ -2203,8 +2192,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "242",
-            "Name": "meperidina",
+            "Name": "Meperidina",
             "Group": ["Analgésicos"],
             "FDACategory": "B",
             "OtherInfo": "A meperidina é frequentemente usada para a analgesia do parto, podendo provocar depressão respiratória neonatal, reversível pela naloxona. De uma forma geral, não estão descritas malformações causadas pelos narcóticos."
@@ -2212,8 +2200,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "243",
-            "Name": "levotiroxina",
+            "Name": "Levotiroxina",
             "Group": ["Hormonas tiroideias"],
             "FDACategory": "A",
             "OtherInfo": "Atravessa escassamente a placenta e não está associada a anomalias fetais."
@@ -2221,8 +2208,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "244",
-            "Name": "propiltiouracilo / PTU",
+            "Name": "Propiltiouracilo / PTU",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
             "OtherInfo": "Pode provocar hipotiroidismo no feto, mas essa complicação não é muito frequente quando utilizadas as posologias mais comuns. Apesar de estar incluído na categoria D, o PTU é considerado o fármaco de primeira escolha para tratar o hipertiroidismo durante a gravidez."
@@ -2230,8 +2216,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "245",
-            "Name": "iodeto de potássio",
+            "Name": "Iodeto de Potássio",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
             "OtherInfo": "Bloqueia a libertação de hormonas tiroideias, podendo provocar no feto bócio hipotiroideu, mas este efeito é pouco provável quando os iodetos são administrados à grávida de um modo agudo."
@@ -2239,8 +2224,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "246",
-            "Name": "hidrocortisona",
+            "Name": "Hidrocortisona",
             "Group": ["Corticóides"],
             "FDACategory": "C",
             "OtherInfo": "A utilização dos corticosteróides na gravidez é isenta de efeitos adversos para o feto."
@@ -2248,8 +2232,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "247",
-            "Name": "azatioprina",
+            "Name": "Azatioprina",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
             "OtherInfo": "Não há estudos definitivos sobre os seus efeitos embrio-fetais mas, tendo em conta que ~´e um fármaco imprescindível para prevenir a rejeição dos transplantes, a sua administração não deve ser suspensa na gravidez."
@@ -2257,8 +2240,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "248",
-            "Name": "ciclosporina",
+            "Name": "Ciclosporina",
             "Group": ["Imunossupressores"],
             "FDACategory": "C",
             "OtherInfo": "Não é teratogénica nos animais e não foram registadas anomalias na espécie humana."
@@ -2266,8 +2248,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "249",
-            "Name": "micofenolato mofetil",
+            "Name": "Micofenolato mofetil",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
             "OtherInfo": "Risco teratogénico importante comprovado em estudos animais; deve fazer-se contracepção eficaz durante o tratamento e durante 6 semanas após interrupção da terapêutica."
@@ -2275,8 +2256,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "250",
-            "Name": "mifepristona",
+            "Name": "Mifepristona",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
             "OtherInfo": "Utilizado para interromper a gravidez nos dois primeiros trimestres, geralmente em associação com o misoprostol. Tem efeitos teratogénicos no coelho, especialmente ao nível do pólo cefálico e do SNC. Não estão disponíveis dados sobre a teratogenicidade na espécie humana, mas as mulheres que serão sujeitas ao fármaco deverão ser alertadas para a possibilidade de efeitos embrio-tóxicos."
@@ -2284,8 +2264,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "251",
-            "Name": "misoprostol",
+            "Name": "Misoprostol",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
             "OtherInfo": "Provoca contractilidade uterina e amadurecimento do colo do útero, pelo que é utilizado para provocar o abortamento do segundo trimestre e induzid o trabalho de parto. Associado à mifepristona é utilizado para a interrupção legal da gravidez no primeiro e início do segundo trimestres."
@@ -2293,8 +2272,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "252",
-            "Name": "tabaco",
+            "Name": "Tabaco",
             "Group": ["Tabaco"],
             "FDACategory": "X",
             "OtherInfo": "Os hábitos tabágicos maternos (mais de cinco cigarros por dia) interferem com o crescimento fetal, observando-se uma diminuição média de 200g no peso dos recém-nascidos das mães fumadoras quando comparados aos filhos de não fumadoras com o mesmo tempo de gestação, sendo este efeito dose-dependente. A nicotina e o monóxido de carbono passam a barreira placentária, sendo as suas concentrações no feto 10-15% superiores às da mãe. A causa do deficiente crescimento fetal é a isquémia e hipoxémia produzidas pela nicotina, com potentes efeitos vaso-constritores, e pelo monóxido de carbono, que compete com a ligação do oxigénio à hemoglobina. Os efeitos imediatos, a nível fetal, após a grávida fumar um cigarro, são: taquicardia fetal mantida durante pelo menos 10 minutos, diminuição da variabilidade de frequência cardíaca fetal e quase completa abolição dos movimentos do feto. O tabagismo materno associa-se ainda ao aumento de incidência de abordos no segundo trimestre, descolamento prematuro da placenta, parto pré-termo, rotura prematura das membranas e aumento da morbilidade/mortalidade perinatais."
@@ -2302,8 +2280,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "253",
-            "Name": "nicotina",
+            "Name": "Nicotina",
             "Group": ["Tabaco"],
             "FDACategory": "X",
             "OtherInfo": "Os hábitos tabágicos maternos (mais de cinco cigarros por dia) interferem com o crescimento fetal, observando-se uma diminuição média de 200g no peso dos recém-nascidos das mães fumadoras quando comparados aos filhos de não fumadoras com o mesmo tempo de gestação, sendo este efeito dose-dependente. A nicotina e o monóxido de carbono passam a barreira placentária, sendo as suas concentrações no feto 10-15% superiores às da mãe. A causa do deficiente crescimento fetal é a isquémia e hipoxémia produzidas pela nicotina, com potentes efeitos vaso-constritores, e pelo monóxido de carbono, que compete com a ligação do oxigénio à hemoglobina. Os efeitos imediatos, a nível fetal, após a grávida fumar um cigarro, são: taquicardia fetal mantida durante pelo menos 10 minutos, diminuição da variabilidade de frequência cardíaca fetal e quase completa abolição dos movimentos do feto."
@@ -2311,8 +2288,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            _id: "254",
-            "Name": "cafeína",
+            "Name": "Cafeína",
             "Group": ["Cafeína"],
             "OtherInfo": "A ingestão de mais de 300mg/dia de cafeína (um café contém 75mg de cafeína, logo 3-4 chávenas de café ou volme equivalente de bebidas contendo cafeína, como as de cola) pode afetar o normal crescimento fetal. Num ensaio prospetivo, Weng e col. mostraram que duplica o risco de abortamento precoce em grávidas que tomavam mais de 200mg/dia de cafeína. "
         }

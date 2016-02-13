@@ -20,6 +20,8 @@ Application.prototype.searchDrug = function (searchString) {
                 document.getElementById("helpBox").setAttribute("hidden", true);
                 document.getElementById("drugInfoBox").setAttribute("hidden", true);
                 document.getElementById("searchResults").setAttribute("hidden", true);
+                document.getElementById("helpBox").setAttribute("hidden", true);
+                document.getElementById("alternativeInfoBox").setAttribute("hidden", true);
                 return;
             }
 
@@ -56,6 +58,29 @@ Application.prototype.searchDrug = function (searchString) {
                 }
 
                 document.getElementById("drugDescription").innerHTML = docs[0].OtherInfo;
+
+                if (docs[0].Alternative)
+                {
+                    document.getElementById("alternativeInfoBox").removeAttribute("hidden");
+                    var alternatives = docs[0].Alternative;
+                    var alternativesListHTML = document.getElementById("alternativesList");
+                    alternativesListHTML.innerHTML = "";
+                    for (var i = 0; i < alternatives.length; ++i)
+                    {
+                        var alternative = alternatives[i];
+                        var name = alternative[0];
+                        var category = alternative[1];
+
+                        var li = document.createElement("li");
+                        li.innerHTML = Application.formDrugName(name) + " (" + category + ")";
+                        alternativesListHTML.appendChild(li);
+                    }
+                }
+                else
+                {
+                    document.getElementById("alternativeInfoBox").setAttribute("hidden", true);
+                }
+
                 return;
             }
 
@@ -65,6 +90,7 @@ Application.prototype.searchDrug = function (searchString) {
                 document.getElementById("helpBox").setAttribute("hidden", true);
                 document.getElementById("errorBox").setAttribute("hidden", true);
                 document.getElementById("drugInfoBox").setAttribute("hidden", true);
+                document.getElementById("alternativeInfoBox").setAttribute("hidden", true);
 
                 var searchResults = document.getElementById("searchResults");
                 searchResults.innerHTML = "";
