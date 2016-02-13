@@ -3,4 +3,8 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Zephiro309\AppData\Local\Temp\GestaMed_refcache</ReferenceCachePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
+    <DebuggerFlavor>RippleNexus</DebuggerFlavor>
+    <AndroidEmulatorID>AndroidDevice;Device</AndroidEmulatorID>
+  </PropertyGroup>
 </Project>

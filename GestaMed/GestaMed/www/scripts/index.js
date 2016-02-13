@@ -47,6 +47,8 @@ window.onload = function () {
         document.getElementById("page3ListItem").className = "";
         document.getElementById("page4").setAttribute("hidden", true);
         document.getElementById("page4ListItem").className = "";
+        document.getElementById("page5").setAttribute("hidden", true);
+        document.getElementById("page5ListItem").className = "";
         document.getElementById("sidebarToggle").click();
     };
     document.getElementById("page2Anchor").onclick = function () {
@@ -58,6 +60,8 @@ window.onload = function () {
         document.getElementById("page3ListItem").className = "";
         document.getElementById("page4").setAttribute("hidden", true);
         document.getElementById("page4ListItem").className = "";
+        document.getElementById("page5").setAttribute("hidden", true);
+        document.getElementById("page5ListItem").className = "";
         document.getElementById("sidebarToggle").click();
     };
     document.getElementById("page3Anchor").onclick = function () {
@@ -69,6 +73,8 @@ window.onload = function () {
         document.getElementById("page2ListItem").className = "";
         document.getElementById("page4").setAttribute("hidden", true);
         document.getElementById("page4ListItem").className = "";
+        document.getElementById("page5").setAttribute("hidden", true);
+        document.getElementById("page5ListItem").className = "";
         document.getElementById("sidebarToggle").click();
     };
     document.getElementById("page4Anchor").onclick = function () {
@@ -80,6 +86,21 @@ window.onload = function () {
         document.getElementById("page2ListItem").className = "";
         document.getElementById("page3").setAttribute("hidden", true);
         document.getElementById("page3ListItem").className = "";
+        document.getElementById("page5").setAttribute("hidden", true);
+        document.getElementById("page5ListItem").className = "";
+        document.getElementById("sidebarToggle").click();
+    };
+    document.getElementById("page5Anchor").onclick = function () {
+        document.getElementById("page5").removeAttribute("hidden");
+        document.getElementById("page5ListItem").className = "active";
+        document.getElementById("page1").setAttribute("hidden", true);
+        document.getElementById("page1ListItem").className = "";
+        document.getElementById("page2").setAttribute("hidden", true);
+        document.getElementById("page2ListItem").className = "";
+        document.getElementById("page3").setAttribute("hidden", true);
+        document.getElementById("page3ListItem").className = "";
+        document.getElementById("page4").setAttribute("hidden", true);
+        document.getElementById("page4ListItem").className = "";
         document.getElementById("sidebarToggle").click();
     };
 };
