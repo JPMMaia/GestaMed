@@ -7,12 +7,6 @@ Application.prototype.initialize = function () {
     this.database = new Database("AppDB");
 };
 
-Application.prototype.setDrugsPage = function () {
-
-    
-
-};
-
 Application.prototype.searchDrug = function (searchString) {
     this.database.searchDrug(searchString,
         function(docs)
@@ -32,7 +26,7 @@ Application.prototype.searchDrug = function (searchString) {
                 document.getElementById("helpBox").setAttribute("hidden", true);
                 document.getElementById("errorBox").setAttribute("hidden", true);
 
-                document.getElementById("drugName").innerHTML = docs[0]._id;
+                document.getElementById("drugName").innerHTML = docs[0].Name;
 
                 var groupsHTML = "";
                 var groups = docs[0].Group;
