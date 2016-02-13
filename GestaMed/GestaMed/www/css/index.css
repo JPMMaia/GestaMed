@@ -9,8 +9,27 @@
     font-size: 1.4em;
     color: white;
     top: 20%;
+    z-index: -1;
 }
 
 .navbar{
     background-color: #3C9EBC;
+}
+
+.main-sidebar
+{
+    padding-top: 50px;
+}
+
+input.form-control{
+    font-size: medium;
+}
+
+#helpBox{
+    margin: 10px 10px;
+    background-color: #00ADEF;
+}
+
+#searchBar {
+    background-color: #FFF;
 }
