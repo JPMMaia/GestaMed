@@ -53,6 +53,11 @@ Application.prototype.searchDrug = function (searchString) {
 
                 document.getElementById("drugDescription").innerHTML = docs[0].OtherInfo;
             }
+
+            else
+            {
+
+            }
         },
         function(err)
         {
