@@ -38,6 +38,10 @@ window.onload = function () {
         application.searchDrug(searchBar.value);
     };
 
+    document.getElementById("drugFDACatagoryDiv").onclick = function () {
+        document.getElementById("page3Anchor").click();
+    };
+
     document.getElementById("page1Anchor").onclick = function () {
         document.getElementById("page1").removeAttribute("hidden");
         document.getElementById("page1ListItem").className = "active";

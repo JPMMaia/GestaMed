@@ -47,6 +47,7 @@ input.form-control{
 
 #drugName {
     font-weight: 600;
+    width: 50%;
 }
 
 .drugClass {
