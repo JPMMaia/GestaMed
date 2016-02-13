@@ -25,7 +25,7 @@ Database.prototype.searchDrug = function (searchDrug, successCallback, failCallb
         selector:
             {
                 _id: { $gte: null },
-                Name: { $regex: searchDrug }
+                Name: { $regex: searchDrug.toLowerCase() }
             }
     }).then(function (result) {
         successCallback(result.docs);
@@ -47,7 +47,7 @@ Database.prototype.fillDatabase = function () {
     this.database.put(
         {
             _id: "1",
-            "Name": "Etretinato",
+            "Name": "etretinato",
             "Group": [ "Retinóides" ],
             "FDACategory": "X",
             "OtherInfo": "Utilizado no tratamento da psoríase. Pertence ao grupo dos retinóides, sendo que 25% dos recém-nascidos sujeitos in utero a este tipo de fármacos apresenta um quadro malformativo que inclui defeitos do SNC (hidrocefalia, cegueira do nervo óptico, anomalidas da retina, microftalmia, defeitos na fossa posterior do córtex e cerebelo), defeitos craniofaciais (implantação baixa dos pavilhões auriculares, hipertelorismo, microcefalia, micrognatia, estenose do canal auditivo); defeitos cardiovasculares (transposição dos grandes vasos, Tetralogia de Fallot, defeitos septais), ectopia ou aplasia do timo, redução dos membros, hipotonia muscular, alterações do comportamento, etc. Os efeitos teratogénicos podem ocorrer mesmo quando a terapêutica tenha sido interrompida muitos meses antes da concepção. É recomendado um intervalo mínimo de três anos, após o qual se deverá proceder a doseamentos dos níveis séricos do fármaco e dos seus metabólitos: a gravidez só deverá ser admitida se forem indetectáveis."
