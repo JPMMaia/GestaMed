@@ -70,7 +70,7 @@ desired effect
                 <span id="logo">GestaMed</span>
 
                 <!-- Sidebar toggle button-->
-                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <a id="sidebarToggle" href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
 
@@ -98,11 +98,10 @@ desired effect
                 <ul class="sidebar-menu">
                     <li class="header">MENU</li>
                     <!-- Optionally, you can add icons to the links -->
-                    <li class="active"><a href="#"><i class="fa fa-link"></i> <span>O que é o GestaMed</span></a></li>
-                    <li><a href="#"><i class="fa fa-link"></i> <span>Categorias FDA</span></a></li>
-                    <li class="treeview">
-                        <a href="#"><i class="fa fa-link"></i> <span>Principios gerais de<br> prescrição de medicamentos<br> na gravidez</span></a>
-                    </li>
+                    <li id="page1ListItem" class="active"><a id="page1Anchor" href="#"><i class="fa fa-link"></i> <span>Pesquisa de medicamentos</span></a></li>
+                    <li id="page2ListItem"><a id="page2Anchor" href="#"><i class="fa fa-link"></i> <span>O que é o GestaMed</span></a></li>
+                    <li id="page3ListItem"><a id="page3Anchor" href="#"><i class="fa fa-link"></i> <span>Categorias FDA</span></a></li>
+                    <li id="page4ListItem"><a id="page4Anchor" href="#"><i class="fa fa-link"></i> <span>Principios gerais de<br> prescrição de medicamentos<br> na gravidez</span></a></li>
                 </ul><!-- /.sidebar-menu -->
             </section>
             <!-- /.sidebar -->
@@ -111,36 +110,133 @@ desired effect
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
 
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <h1>
-                    Pesquisa de medicamentos
-                    <small>Optional description</small>
-                </h1>
-            </section>
+            <!-- Page 1 -->
+            <div id="page1">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Pesquisa de medicamentos
+                        <small>Optional description</small>
+                    </h1>
+                </section>
 
-            <!-- Main content -->
-            <section class="content">
+                <!-- Main content -->
+                <section class="content">
 
-                <!-- search form (Optional) -->
-                <form action="#" method="get" class="sidebar-form">
+                    <!-- search form (Optional) -->
                     <div class="input-group">
                         <input id="searchBar" type="text" name="q" class="form-control" placeholder="Pesquisar por um medicamento...">
                         <span class="input-group-btn">
-                            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                            <button id="search-btn" type="button" name="search" class="btn btn-flat"><i class="fa fa-search"></i></button>
                         </span>
                     </div>
-                </form>
 
-                <!-- Help box -->
-                <div class="callout callout-info" id="helpBox">
-                    <h4>Dica!</h4>
-                    <p>
-                        Exemplo: pesquise por Paracetamol!
-                    </p>
-                </div>
+                    <!-- Help box -->
+                    <div class="callout callout-info" id="helpBox">
+                        <h4>Dica!</h4>
+                        <p>
+                            Exemplo: pesquise por Paracetamol!
+                        </p>
+                    </div>
 
-            </section>
+                    <!-- Error box -->
+                    <div id="errorBox" class="callout callout-danger" hidden>
+                        <h4>Medicamento não encontrado!</h4>
+
+                        <p>
+                            Verifique que escreveu o nome do medicamento da forma correta!
+                        </p>
+                    </div>
+
+                    <!-- Drug info box -->
+                    <div id="drugInfoBox" class="box box-default" hidden>
+                        <div class="box-header with-border">
+                            <h3 class="box-title" id="drugName"></h3>
+                            <div id="drugFDACatagoryDiv">Categoria FDA: <span id="drugFDACategory"></span></div>
+                        </div>
+                        <div class="box-body">
+                            <span class="drugClass">Grupo(s): </span> <span id="drugGroups"></span> <br>
+                            <span class="drugClass">Descrição: </span> <span id="drugDescription"></span> <br>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Page 2 -->
+            <div id="page2" hidden>
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        O que é o GestaMed?
+                    </h1>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <!-- Drug info box -->
+                    <div class="box box-default">
+                        <div class="box-body">
+                            A GestaMed é uma aplicação que permite ao utilizador (profissional de saúde, grávida, familiar) pesquisar, de forma rápida, um medicamento, por forma a saber se este é seguro para uma mulher grávida ou que esteja a pensar engravidar tomar. Para avaliar a segurança, é indicada a categoria de risco para gravidez, de acordo com a Classificação de Risco da FDA (Food and Drug Administration) dos EUA referida na edição de 2008 do Guia de Referência de Briggs e Col.1-2. Para pesquisar o medicamento deverá ser introduzido na barra de pesquisa o nome do princípio ativo do mesmo e não o nome comercial, sendo que este se encontra sempre na caixa do medicamento, abaixo do nome comercial. Por exemplo, – se quiser pesquisar “Ben-u-ron®” deverá escrever “paracetamol” ou, ao invés de “Brufen®”, deverá procurar “ibuprofeno”.
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Page 3 -->
+            <div id="page3" hidden>
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Categorias FDA
+                    </h1>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <!-- Drug info box -->
+                    <div class="box box-default">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Categorias FDA</h3>
+                        </div>
+                        <div class="box-body">
+                            Text
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </section>
+            </div>
+
+            <!-- Page 4 -->
+            <div id="page4" hidden>
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Principios gerais de prescrição de medicamentos na gravidez
+                    </h1>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <!-- Drug info box -->
+                    <div class="box box-default">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Principios gerais de prescrição de medicamentos na gravidez</h3>
+                        </div>
+                        <div class="box-body">
+                            TEXT
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </section>
+            </div>
 
         </div>
 
@@ -222,7 +318,6 @@ desired effect
     </div>
 
     <!-- REQUIRED JS SCRIPTS -->
-    
     <!-- Cordova reference -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
@@ -232,7 +327,7 @@ desired effect
 
     <!-- Bootstrap 3.3.5 -->
     <script src="external/bootstrap/js/bootstrap.min.js"></script>
-    
+
     <!-- AdminLTE App -->
     <script src="external/dist/js/app.min.js"></script>
 
@@ -242,6 +337,7 @@ desired effect
 
     <!-- Custom -->
     <script src="scripts/app/Database.js"></script>
+    <script src="scripts/app/Application.js"></script>
     <script src="scripts/index.js"></script>
 
 </body>

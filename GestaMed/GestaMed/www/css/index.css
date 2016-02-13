@@ -33,3 +33,37 @@ input.form-control{
 #searchBar {
     background-color: #FFF;
 }
+
+#errorBox {
+    margin-top: 1.5em;
+}
+
+#drugInfoBox
+{
+    margin-top: 1.5em;
+}
+
+#drugName {
+    font-weight: 600;
+}
+
+.drugClass {
+    font-weight: 600;
+}
+
+#drugFDACatagoryDiv{
+    position: absolute;
+    display: inline-flex;
+    right: 1em;
+    font-weight: 700;
+}
+
+.greenFDACategory{
+    color: #00A625;
+}
+.yellowFDACategory{
+    color: #F39C12;
+}
+.redFDACategory{
+    color: red;
+}
