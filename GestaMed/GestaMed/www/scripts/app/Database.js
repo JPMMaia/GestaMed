@@ -82,6 +82,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "5",
             "Name": "Etisterona / Noretisterona",
             "Group": [ "Hormonas" ],
             "FDACategory": "D",
