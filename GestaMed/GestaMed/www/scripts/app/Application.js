@@ -1,5 +1,7 @@
-﻿function Application()
+﻿var app;
+function Application()
 {
+    app = this;
     this.initialize();
 }
 
@@ -17,6 +19,7 @@ Application.prototype.searchDrug = function (searchString) {
                 document.getElementById("errorBox").removeAttribute("hidden");
                 document.getElementById("helpBox").setAttribute("hidden", true);
                 document.getElementById("drugInfoBox").setAttribute("hidden", true);
+                document.getElementById("searchResults").setAttribute("hidden", true);
                 return;
             }
 
@@ -25,8 +28,9 @@ Application.prototype.searchDrug = function (searchString) {
                 document.getElementById("drugInfoBox").removeAttribute("hidden");
                 document.getElementById("helpBox").setAttribute("hidden", true);
                 document.getElementById("errorBox").setAttribute("hidden", true);
+                document.getElementById("searchResults").setAttribute("hidden", true);
 
-                document.getElementById("drugName").innerHTML = docs[0].Name;
+                document.getElementById("drugName").innerHTML = Application.formDrugName(docs[0].Name);
 
                 var groupsHTML = "";
                 var groups = docs[0].Group;
@@ -52,11 +56,36 @@ Application.prototype.searchDrug = function (searchString) {
                 }
 
                 document.getElementById("drugDescription").innerHTML = docs[0].OtherInfo;
+                return;
             }
 
             else
             {
+                document.getElementById("searchResults").removeAttribute("hidden");
+                document.getElementById("helpBox").setAttribute("hidden", true);
+                document.getElementById("errorBox").setAttribute("hidden", true);
+                document.getElementById("drugInfoBox").setAttribute("hidden", true);
 
+                var searchResults = document.getElementById("searchResults");
+                searchResults.innerHTML = "";
+                
+                for (var i = 0; i < length; ++i)
+                {
+                    var button = document.createElement("button");
+                    button.id = "searchResult" + i;
+                    button.type = "button";
+                    button.className = "btn btn-block btn-primary";
+                    button.innerHTML = Application.formDrugName(docs[i].Name);
+                    button.onclick = function (event) {
+                        var clickedButton = document.elementFromPoint(event.clientX, event.clientY);
+                        app.searchDrug(clickedButton.innerHTML);
+                    };
+
+                    var li = document.createElement("li");
+                    li.appendChild(button);
+
+                    searchResults.appendChild(li);
+                }
             }
         },
         function(err)
@@ -64,4 +93,11 @@ Application.prototype.searchDrug = function (searchString) {
             console.log(err);
         }
         );
+};
+
+Application.formDrugName = function (name) {
+    if (name === "")
+        return name;
+
+    return name.charAt(0).toUpperCase() + name.slice(1);
 };
