@@ -28,6 +28,8 @@ input.form-control{
 #helpBox{
     margin: 10px 10px;
     background-color: #00ADEF;
+    position: relative;
+    top: 10px;
 }
 
 #searchBar {
@@ -58,6 +60,12 @@ input.form-control{
     font-weight: 700;
 }
 
+#drugFDADescriptionDiv{
+    position: relative;
+    display: inline-flex;
+    font-weight: 700;
+}
+
 .greenFDACategory{
     color: #00A625;
 }
@@ -66,4 +74,8 @@ input.form-control{
 }
 .redFDACategory{
     color: red;
+}
+
+.boldDesc {
+    font-weight: 600;
 }
