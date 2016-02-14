@@ -2080,6 +2080,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "228",
             "Name": "Fluoxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
@@ -2088,6 +2089,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "229",
             "Name": "Sertralina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
@@ -2096,6 +2098,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "230",
             "Name": "Paroxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "D",
@@ -2104,6 +2107,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "231",
             "Name": "Tioridazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2112,6 +2116,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "232",
             "Name": "Trifluoperazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2120,6 +2125,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "233",
             "Name": "Haloperidol",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2128,6 +2134,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "234",
             "Name": "Tiotixeno",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2136,6 +2143,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "235",
             "Name": "Loxapine",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2144,6 +2152,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "236",
             "Name": "Clorprotixene",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
@@ -2152,6 +2161,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "237",
             "Name": "Aspirina / ácido acetilsalicílico",
             "Group": ["Analgésicos", "Anti-agregantes plaquetários"],
             "FDACategory": "C",
@@ -2160,6 +2170,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "238",
             "Name": "Ibuprofeno",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
@@ -2168,6 +2179,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "239",
             "Name": "Indometacina",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
@@ -2176,6 +2188,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "240",
             "Name": "Diclofenac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
@@ -2184,6 +2197,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "241",
             "Name": "Sulindac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
@@ -2192,6 +2206,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "242",
             "Name": "Meperidina",
             "Group": ["Analgésicos"],
             "FDACategory": "B",
@@ -2200,6 +2215,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "243",
             "Name": "Levotiroxina",
             "Group": ["Hormonas tiroideias"],
             "FDACategory": "A",
@@ -2208,6 +2224,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "244",
             "Name": "Propiltiouracilo / PTU",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
@@ -2216,6 +2233,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "245",
             "Name": "Iodeto de Potássio",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
@@ -2224,6 +2242,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "246",
             "Name": "Hidrocortisona",
             "Group": ["Corticóides"],
             "FDACategory": "C",
@@ -2232,6 +2251,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "247",
             "Name": "Azatioprina",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
@@ -2240,6 +2260,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "248",
             "Name": "Ciclosporina",
             "Group": ["Imunossupressores"],
             "FDACategory": "C",
@@ -2248,6 +2269,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "249",
             "Name": "Micofenolato mofetil",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
@@ -2256,6 +2278,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "250",
             "Name": "Mifepristona",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
@@ -2264,6 +2287,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "251",
             "Name": "Misoprostol",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
@@ -2272,6 +2296,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "252",
             "Name": "Tabaco",
             "Group": ["Tabaco"],
             "FDACategory": "X",
@@ -2280,6 +2305,7 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "253",
             "Name": "Nicotina",
             "Group": ["Tabaco"],
             "FDACategory": "X",
@@ -2288,9 +2314,11 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
+            _id: "254",
             "Name": "Cafeína",
             "Group": ["Cafeína"],
-            "OtherInfo": "A ingestão de mais de 300mg/dia de cafeína (um café contém 75mg de cafeína, logo 3-4 chávenas de café ou volme equivalente de bebidas contendo cafeína, como as de cola) pode afetar o normal crescimento fetal. Num ensaio prospetivo, Weng e col. mostraram que duplica o risco de abortamento precoce em grávidas que tomavam mais de 200mg/dia de cafeína. "
+            "FDACategory": "B",
+            "OtherInfo": "A ingestão de mais de 300mg/dia de cafeína (um café contém 75mg de cafeína, logo 3-4 chávenas de café ou volme equivalente de bebidas contendo cafeína, como as de cola) pode afetar o normal crescimento fetal. Num ensaio prospetivo, Weng e col. mostraram que duplica o risco de abortamento precoce em grávidas que tomavam mais de 200mg/dia de cafeína. Recomenda-se o consumo de bananas, pois é um exemplo de comida isenta de cafeína."
         }
         );
 };
