@@ -2080,7 +2080,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Fluoxetina",
+            _id: "228",
+            "Name": "fluoxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
             "OtherInfo": "A fluoxetina é o antidepressivo inibidor seletivo da serotonina melhor estudado. A incidência de anomalias fetais não é superior à esperada na população em geral.A terapêutica com estes fármacos deve ser suspensa na segunda metade da gravidez por induzir uma maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido."
@@ -2088,7 +2089,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Sertralina",
+            _id: "229",
+            "Name": "sertralina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "C",
             "OtherInfo": "Não está associada a defeitos congénitos. A terapêutica com estes fármacos deve ser suspensa na segunda metade da gravidez por induzir uma maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido."
@@ -2096,7 +2098,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Paroxetina",
+            _id: "230",
+            "Name": "paroxetina",
             "Group": ["Anti-depressivos"],
             "FDACategory": "D",
             "OtherInfo": "Quando administrada no primeiro trimestre associa-se a duplicação do risco de anomalias cardíacas e, possivelmente, a anencefalia, gastrosquisis e onfalocelo. Por estas razões, aliadas aos efeitos fetais/neonatais comuns à sertralina e fluoxetina (maior ocorrência de RCIU (Restrição do Crescimento Fetal Intra-uterino), parto pré-termo, síndrome neonatal da serotonina, sintomas de privação e dificuldade respiratória do recém-nascido quando administrados na segunda metade da gravidez) deverão ser muito bem ponderados os riscos relativamente aos benefícios quando for tomada a administração de paroxetina durante a gravidez."
@@ -2104,7 +2107,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Tioridazina",
+            _id: "231",
+            "Name": "tioridazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "Mostraram-se inócuas para o feto em vários ensaios epidemiológicos."
@@ -2112,7 +2116,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Trifluoperazina",
+            _id: "232",
+            "Name": "trifluoperazina",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2120,7 +2125,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Haloperidol",
+            _id: "233",
+            "Name": "haloperidol",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2128,7 +2134,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Tiotixeno",
+            _id: "234",
+            "Name": "tiotixeno",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2136,7 +2143,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Loxapine",
+            _id: "235",
+            "Name": "loxapine",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2144,7 +2152,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Clorprotixene",
+            _id: "236",
+            "Name": "clorprotixene",
             "Group": ["Anti-psicóticos"],
             "FDACategory": "C",
             "OtherInfo": "São muito limitados os estudos sobre os efeitos no embrião e no feto destes medicamentos, pelo que a sua utilização durante a gravidez não poderá deixar de ser muito bem ponderada."
@@ -2152,7 +2161,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Aspirina / ácido acetilsalicílico",
+            _id: "237",
+            "Name": "aspirina / ácido acetilsalicílico",
             "Group": ["Analgésicos", "Anti-agregantes plaquetários"],
             "FDACategory": "C",
             "OtherInfo": "A aspirina está disponível há mais de um século e tem sido largamente usada na gravidez sem ocorrerem malformações fetais significativas. No entanto, pelo seu efeito inibidor da sintetase das prostaglandinas e por poder ser responsável por síndromes hemorrágicos devido à alteração da agregação plaquetária, o seu uso prolongado de pequenas doses de aspirina (1-2 mg/kg de peso da grávida) tem sido aproveitado para promover um moderado efeito anti-coagulante em gestantes com risco aumentado de tromboembolismo."
@@ -2160,7 +2170,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Ibuprofeno",
+            _id: "238",
+            "Name": "ibuprofeno",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica."
@@ -2168,7 +2179,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Indometacina",
+            _id: "239",
+            "Name": "indometacina",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica. Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis."
@@ -2176,7 +2188,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Diclofenac",
+            _id: "240",
+            "Name": "diclofenac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica."
@@ -2184,7 +2197,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Sulindac",
+            _id: "241",
+            "Name": "sulindac",
             "Group": ["Anti-inflamatórios Não-Esteróides", "AINEs"],
             "FDACategory": "B",
             "OtherInfo": "Todos os AINE são importantes inibidores da sintetase das prostaglandinas, podendo provocar constrição do canal arterial e acentuada redução do volume do líquido amniótico, pelo que se deve evitar o seu uso, principalmente depois da 32ª semana e por períodos superiores a três dias. Se estas indicações forem seguidas, os efeitos adversos são pouco intensos e reversíveis. A indometacina é o fármaco mais utilizado na gravidez por ter uma potente ação tocolítica. "
@@ -2192,7 +2206,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Meperidina",
+            _id: "242",
+            "Name": "meperidina",
             "Group": ["Analgésicos"],
             "FDACategory": "B",
             "OtherInfo": "A meperidina é frequentemente usada para a analgesia do parto, podendo provocar depressão respiratória neonatal, reversível pela naloxona. De uma forma geral, não estão descritas malformações causadas pelos narcóticos."
@@ -2200,7 +2215,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Levotiroxina",
+            _id: "243",
+            "Name": "levotiroxina",
             "Group": ["Hormonas tiroideias"],
             "FDACategory": "A",
             "OtherInfo": "Atravessa escassamente a placenta e não está associada a anomalias fetais."
@@ -2208,7 +2224,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Propiltiouracilo / PTU",
+            _id: "244",
+            "Name": "propiltiouracilo / PTU",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
             "OtherInfo": "Pode provocar hipotiroidismo no feto, mas essa complicação não é muito frequente quando utilizadas as posologias mais comuns. Apesar de estar incluído na categoria D, o PTU é considerado o fármaco de primeira escolha para tratar o hipertiroidismo durante a gravidez."
@@ -2216,7 +2233,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Iodeto de Potássio",
+            _id: "245",
+            "Name": "iodeto de Potássio",
             "Group": ["Anti-tiroideus"],
             "FDACategory": "D",
             "OtherInfo": "Bloqueia a libertação de hormonas tiroideias, podendo provocar no feto bócio hipotiroideu, mas este efeito é pouco provável quando os iodetos são administrados à grávida de um modo agudo."
@@ -2224,7 +2242,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Hidrocortisona",
+            _id: "246",
+            "Name": "hidrocortisona",
             "Group": ["Corticóides"],
             "FDACategory": "C",
             "OtherInfo": "A utilização dos corticosteróides na gravidez é isenta de efeitos adversos para o feto."
@@ -2232,7 +2251,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Azatioprina",
+            _id: "247",
+            "Name": "azatioprina",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
             "OtherInfo": "Não há estudos definitivos sobre os seus efeitos embrio-fetais mas, tendo em conta que ~´e um fármaco imprescindível para prevenir a rejeição dos transplantes, a sua administração não deve ser suspensa na gravidez."
@@ -2240,7 +2260,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Ciclosporina",
+            _id: "248",
+            "Name": "ciclosporina",
             "Group": ["Imunossupressores"],
             "FDACategory": "C",
             "OtherInfo": "Não é teratogénica nos animais e não foram registadas anomalias na espécie humana."
@@ -2248,7 +2269,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Micofenolato mofetil",
+            _id: "249",
+            "Name": "micofenolato mofetil",
             "Group": ["Imunossupressores"],
             "FDACategory": "D",
             "OtherInfo": "Risco teratogénico importante comprovado em estudos animais; deve fazer-se contracepção eficaz durante o tratamento e durante 6 semanas após interrupção da terapêutica."
@@ -2256,7 +2278,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Mifepristona",
+            _id: "250",
+            "Name": "mifepristona",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
             "OtherInfo": "Utilizado para interromper a gravidez nos dois primeiros trimestres, geralmente em associação com o misoprostol. Tem efeitos teratogénicos no coelho, especialmente ao nível do pólo cefálico e do SNC. Não estão disponíveis dados sobre a teratogenicidade na espécie humana, mas as mulheres que serão sujeitas ao fármaco deverão ser alertadas para a possibilidade de efeitos embrio-tóxicos."
@@ -2264,7 +2287,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Misoprostol",
+            _id: "251",
+            "Name": "misoprostol",
             "Group": ["Antiprogestogénios"],
             "FDACategory": "X",
             "OtherInfo": "Provoca contractilidade uterina e amadurecimento do colo do útero, pelo que é utilizado para provocar o abortamento do segundo trimestre e induzid o trabalho de parto. Associado à mifepristona é utilizado para a interrupção legal da gravidez no primeiro e início do segundo trimestres."
@@ -2272,7 +2296,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Tabaco",
+            _id: "252",
+            "Name": "tabaco",
             "Group": ["Tabaco"],
             "FDACategory": "X",
             "OtherInfo": "Os hábitos tabágicos maternos (mais de cinco cigarros por dia) interferem com o crescimento fetal, observando-se uma diminuição média de 200g no peso dos recém-nascidos das mães fumadoras quando comparados aos filhos de não fumadoras com o mesmo tempo de gestação, sendo este efeito dose-dependente. A nicotina e o monóxido de carbono passam a barreira placentária, sendo as suas concentrações no feto 10-15% superiores às da mãe. A causa do deficiente crescimento fetal é a isquémia e hipoxémia produzidas pela nicotina, com potentes efeitos vaso-constritores, e pelo monóxido de carbono, que compete com a ligação do oxigénio à hemoglobina. Os efeitos imediatos, a nível fetal, após a grávida fumar um cigarro, são: taquicardia fetal mantida durante pelo menos 10 minutos, diminuição da variabilidade de frequência cardíaca fetal e quase completa abolição dos movimentos do feto. O tabagismo materno associa-se ainda ao aumento de incidência de abordos no segundo trimestre, descolamento prematuro da placenta, parto pré-termo, rotura prematura das membranas e aumento da morbilidade/mortalidade perinatais."
@@ -2280,7 +2305,8 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Nicotina",
+            _id: "253",
+            "Name": "nicotina",
             "Group": ["Tabaco"],
             "FDACategory": "X",
             "OtherInfo": "Os hábitos tabágicos maternos (mais de cinco cigarros por dia) interferem com o crescimento fetal, observando-se uma diminuição média de 200g no peso dos recém-nascidos das mães fumadoras quando comparados aos filhos de não fumadoras com o mesmo tempo de gestação, sendo este efeito dose-dependente. A nicotina e o monóxido de carbono passam a barreira placentária, sendo as suas concentrações no feto 10-15% superiores às da mãe. A causa do deficiente crescimento fetal é a isquémia e hipoxémia produzidas pela nicotina, com potentes efeitos vaso-constritores, e pelo monóxido de carbono, que compete com a ligação do oxigénio à hemoglobina. Os efeitos imediatos, a nível fetal, após a grávida fumar um cigarro, são: taquicardia fetal mantida durante pelo menos 10 minutos, diminuição da variabilidade de frequência cardíaca fetal e quase completa abolição dos movimentos do feto."
@@ -2288,9 +2314,11 @@ Database.prototype.fillDatabase = function () {
         );
     this.database.put(
         {
-            "Name": "Cafeína",
+            _id: "254",
+            "Name": "cafeína",
             "Group": ["Cafeína"],
-            "OtherInfo": "A ingestão de mais de 300mg/dia de cafeína (um café contém 75mg de cafeína, logo 3-4 chávenas de café ou volme equivalente de bebidas contendo cafeína, como as de cola) pode afetar o normal crescimento fetal. Num ensaio prospetivo, Weng e col. mostraram que duplica o risco de abortamento precoce em grávidas que tomavam mais de 200mg/dia de cafeína. "
+            "FDACategory": "B",
+            "OtherInfo": "A ingestão de mais de 300mg/dia de cafeína (um café contém 75mg de cafeína, logo 3-4 chávenas de café ou volme equivalente de bebidas contendo cafeína, como as de cola) pode afetar o normal crescimento fetal. Num ensaio prospetivo, Weng e col. mostraram que duplica o risco de abortamento precoce em grávidas que tomavam mais de 200mg/dia de cafeína. Recomenda-se o consumo de bananas, pois é um exemplo de comida isenta de cafeína."
         }
         );
 };
